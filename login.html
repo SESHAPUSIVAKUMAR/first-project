@@ -4,14 +4,61 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>login page</title>
+	<link rel="stylesheet" type="text/css" href="navigation.css">
+	<style type="text/css">
+		form{
+			background-color: orange;
+			border: 12px solid red;
+			width: 50%;
+			border-radius: 20%;
+		}
+		h1{
+			margin-top: 2%;
+			color: red;
+		}
+	
+		.button{
+			background-color: black;
+			color: white;
+			padding: 20px;
+			width: 50%;
+			border-radius: 20%;
+
+		}
+		p{
+			padding: 20px;
+			width: 20%;
+		}
+		.username{
+			padding: 5% ;
+			border-radius: 10%;
+
+		}
+		.password{
+			padding: 5% ;
+			border-radius: 10%;
+
+
+		}
+		p:hover{
+			color: red;
+		}
+	</style>
 </head>
 <body>
+	<nav class="navbar">
+		<a href="register.html">Register</a>
+		<a href="login.html">Login</a>
+		<a href="task.html">Task</a>
+	</nav>
+
 	<center>
+
 	<form action="task.html">
 		<h1>LOGIN FORM</h1>
-		<p><input placeholder="enter username" type="text"required></p>
-		<p><input type="number"placeholder="enter password" required></p>
-		<p><button><b>login</b></button></p>
+		<p><input  class="username"placeholder="enter username" type="text"required></p>
+		<p><input class="password" type="number"placeholder="enter password" required></p>
+		<p><button class="button"><b>login</b></button></p>
 	</form>
 </center>
 

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>register form</title>
+
+	<style type="text/css">
+	body{
+		background-image: url(https://media.istockphoto.com/photos/abstract-blue-background-picture-id1386705180?b=1&k=20&m=1386705180&s=170667a&w=0&h=7FHQZS32KndOHrB8uEEfnWUyxYdfLri5Pm4D93gZMlE=);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: fixed;
+		color: red;
+	}
+	input{
+		margin: 5px;
+		border-radius: 200px;
+		padding: 20px;
+	}
+	.button{
+		color: white;
+		border-radius: 300px;
+		margin-top: 10px;
+		background-color: black;
+		width: 10%;
+		padding: 12px;
+	}
+	input:hover{
+		background-color: orange;
+	}
+	.select{
+		background-color: orange;
+		border-radius: 12px;
+		margin-top: 2px;
+		padding: 12px;
+	}
+	.course{
+		background-color: orange;
+		border-radius: 12px;
+		margin-top: 2px;
+		padding: 12px;
+	
+	}
+	.reset{
+		color: white;
+		border-radius: 300px;
+		margin-top: 10px;
+		background-color: red;
+		width: 10%;
+		padding: 12px;
+
+	}
+	.date{
+		padding: 1%;
+		width: 12%;
+	}
+	</style>
+</head>
+<body>
+	<nav class="navbar">
+		<a href="register.html">Register</a>
+		<a href="login.html">Login</a>
+		<a href="task.html">Task</a>
+	</nav>
+
+	
+	<form class="register" action="login.html">
+		<center>	
+			<h1>REGISTER FORM</h1>
+
+			<p><input type="text" placeholder="enter name" required></i></p>
+		<p><input type="number" placeholder="enter age"required></p>
+		<p><input type="email" placeholder="enter email address"required></p>
+		<p><input class="date" type="date"></p>
+		<p><input type="password" placeholder="enter password"></p>
+		<p><input type="password"placeholder="conform password"></p>
+		<input type="radio" name="gender" value="male">male
+		<input type="radio" name="gender" value="female">female
+		<p><select class="course">
+			<option value="select your occupation">select your occupation</option>
+			<option value="10th">10th</option>
+			<option value="inter">inter</option>
+			<option value="degree">degree</option></select></p>
+		
+		<select class="select">
+			
+			<option value="select your course">select your course</option>
+			<option value="bsc/bcom">bsc/bcom</option>
+			<option value="mpc/cse">mpc/cse</option>
+			<option value="other">other</option>
+		</select>
+		<p><button class="button">submit</button></p>
+		<p><button class="reset">reset</button></p>
+
+</center>	
+
+	</form>
+</body>
+</html>
